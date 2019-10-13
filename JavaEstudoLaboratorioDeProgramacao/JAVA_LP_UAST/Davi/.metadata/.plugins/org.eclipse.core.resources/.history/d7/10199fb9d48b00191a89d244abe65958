@@ -1,0 +1,17 @@
+package supermercado;
+
+import java.util.ArrayList;
+
+public class Main {
+	public static void main(String[] args){
+		Produto carne = new Produto("alimento", 30.50f, 100);
+		Produto arroz = new Produto("alimento", 2.5f, 500);
+		Pedido pedido1 = new Pedido();
+		ArrayList<Produto> produtos = new ArrayList<Produto>();
+		produtos.add(carne);
+		produtos.add(arroz);
+		pedido1.setProdutos(produtos);
+		
+		
+	}
+}

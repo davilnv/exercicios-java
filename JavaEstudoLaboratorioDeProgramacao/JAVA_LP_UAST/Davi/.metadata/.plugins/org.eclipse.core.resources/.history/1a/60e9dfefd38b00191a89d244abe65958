@@ -1,0 +1,23 @@
+package supermercado;
+
+import java.util.ArrayList;
+
+public class Pedido {
+	private ArrayList<Produto> produtos;
+	
+	public Pedido(ArrayList<Produto> produtos) {
+		this.produtos = produtos;
+	}
+
+	public ArrayList<Produto> getProdutos() {
+		return produtos;
+	}
+
+	public void setProdutos(ArrayList<Produto> produtos) {
+		this.produtos = produtos;
+	}
+
+	public void pagar(){
+		
+	}
+}

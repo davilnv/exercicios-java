@@ -1,0 +1,17 @@
+
+public class ClinicoGeral extends Medico{
+	String experiencia;
+	String endereco;
+	public String getExperiencia() {
+		return experiencia;
+	}
+	public void setExperiencia(String experiencia) {
+		this.experiencia = experiencia;
+	}
+	public String getEndereco() {
+		return endereco;
+	}
+	public void setEndereco(String endereco) {
+		this.endereco = endereco;
+	}
+}

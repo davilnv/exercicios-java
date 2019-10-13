@@ -1,0 +1,5 @@
+package emprestimoLivros;
+
+public class Aluno extends Usuario{
+
+}

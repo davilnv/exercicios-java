@@ -1,0 +1,17 @@
+
+public class MedicoHospital extends Medico{
+	double numeroDoEquipe;
+	double numeroDoPage;
+	public double getNumeroDoEquipe() {
+		return numeroDoEquipe;
+	}
+	public void setNumeroDoEquipe(double numeroDoEquipe) {
+		this.numeroDoEquipe = numeroDoEquipe;
+	}
+	public double getNumeroDoPage() {
+		return numeroDoPage;
+	}
+	public void setNumeroDoPage(double numeroDoPage) {
+		this.numeroDoPage = numeroDoPage;
+	}
+}

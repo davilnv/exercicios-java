@@ -1,0 +1,18 @@
+package emprestimoLivros;
+
+public class ServidorAdministrativo extends Usuario{
+	private String cargo;
+	public void cadastrarLivro(String nome, String tipo, int cod) {
+		Livro livro = new Livro();
+		livro.setNome(nome);
+		livro.setTipo(tipo);
+		livro.setCod(cod);
+	}
+	public String getCargo() {
+		return cargo;
+	}
+	public void setCargo(String cargo) {
+		this.cargo = cargo;
+	}
+	
+}
