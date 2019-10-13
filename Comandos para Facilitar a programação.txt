@@ -1,0 +1,5 @@
+Comandos para facilitar na programação em java:
+Digita e aperta TAB
+- psvm = public static void main(String[] args);{}
+- sout = System.out.print("")
+
